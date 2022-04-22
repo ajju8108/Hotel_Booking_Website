@@ -9,7 +9,7 @@
 <body>
     <div>
         <header>
-            <img src="assests/images/logo.png" height="100px" width="150px" halt="logo">
+            <a href="index.html"> <img src="assests/images/logo.png" height="100px" width="150px" halt="logo"/></a>
         
             <a href="login.html" target="_blank">Login</a>
     
@@ -18,9 +18,37 @@
         <section>
            <div>
 
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" />
             <div>
-            <a href="payment.html" target="_self">Book Now</a>
+                <form action="payment.html" target="_self" method="get">
+
+                    <label for="no_adults">Adults:</label>
+                    <input type="number" name="adults" min="1" max="100" autocomplete="off" required><br>
+
+                    <label for="name">Name:</label>
+                    <input type="text" name="username" placeholder="Enter Username" autocomplete="off" required/><br>
+
+                    <label for="check_in">From Date:</label>
+                    <input type="date" name="from_date" autocomplete="off" required/><br>
+
+                    <label for="check_out">To Date:</label>
+                    <input type="date" name="to_date" autocomplete="off" required/><br>
+                    
+                    <label for="total_price">Total:</label>
+                    <input type="number" name="total" value="0" disabled required/><br>
+
+                    <button>Book Now</button>
+
+
+                
+
+                <!-- <p><b>Check in Date:</b> 06/06/2020</p>
+                <p><b>Check out Date:</b> 08/06/2020</p>
+                <p><b>Tarrif Breakdown:</b> RS.1000*2Adults*5Nights</p>
+                <p><b>Total Amount:</b>Rs.10000</p>
+                <a href="#">Pay Now</a> -->
+                </form>
+            
             </div>
             <h2>Radisson Blu Hotel</h2>
             <p>RATING</p>
@@ -46,15 +74,15 @@
     
         <footer>
             <div>
-                <a href="contact.html" target="_blank">Contact Us</a>
+                <a href="contact.html" target="_self">Contact Us</a>
             </div>
             <div>
-                <a href="https://www.facebook.com/" target="_blank"><img src="assests/images/facebook.png" height="20px" width="22px" alt="facebook"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="assests/images/instagram.png" height="20px" width="22px" alt="instagram"></a>
-                <a href="https://www.twitter.com/" target="_blank"><img src="assests/images/twitter.png" height="20px" width="22px" alt="twitter"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="assests/images/facebook.png" height="20px" width="22px" alt="facebook" /></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="assests/images/instagram.png" height="20px" width="22px" alt="instagram" /></a>
+                <a href="https://www.twitter.com/" target="_blank"><img src="assests/images/twitter.png" height="20px" width="22px" alt="twitter" /></a>
                 <p>	&#169;2020 ROOM SEARCH PVT LTD</p>
             </div>
         </footer>
     </div>
 </body>
-</html>
+</html> /
