@@ -1,0 +1,16 @@
+*{
+    /* margin: 0;
+     padding: 0; */
+    box-sizing: border-box; 
+}.box{
+    background:red;
+    height:100%;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+#Radisson_Blu_Hotel_payment{
+    height: 500px;
+    width: 500px;
+}

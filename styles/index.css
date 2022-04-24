@@ -1,0 +1,21 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+.box{
+
+    height:100%;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+#img1,#img2,#img3,#img4{
+    height: 150px;
+    width: 150px;
+}
+#social_media1,#social_media2,#social_media3,#social_media4{
+    height: 20px;
+    width: 22px;
+}
