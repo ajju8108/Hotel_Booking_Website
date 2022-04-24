@@ -1,11 +1,15 @@
-*{
-    /* margin: 0;
-    padding: 0; */
+body,html{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0 0 0 0;
+    background-color: #e0e0e0;
 }
-.box{
+/* .box{
     
     height:100%;
+} */
+header, footer{
+    background-color: rosybrown;
 }
 #logo{
     height: 60px;
@@ -14,9 +18,16 @@
 #hotel_1,#hotel_2,#hotel_3{
     height: 150px;
     width: 200px;
+    
 }
 
 #social_media1,#social_media2,#social_media3,#social_media4{
     height: 20px;
     width: 22px;
+}
+
+.hotel1,.hotel2,.hotel3{
+    margin: 2%;
+    background-color:  rgb(132,136,139);
+    width:40% ;
 }

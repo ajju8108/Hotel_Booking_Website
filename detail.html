@@ -10,15 +10,21 @@
 <body>
     <div>
         <header>
-            <a href="index.html"><img id="logo" src="assests/images/logo.png" halt="logo" /></a>
+            <nav >
+            <img id="logo" src="assests/images/logo.png" halt="logo" />
+            
             <a href="login.html" target="_self" >Login</a>
         
+        </nav>
         </header>
 
         <main>
            <div>
-            <img id="Radisson_Blu_Hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" />
-            <div>
+               <div class="radisson_hotel">
+                <img id="Radisson_Blu_Hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" />
+                </div>
+
+                <div class="form">
                 <form action="payment.html" target="_self" method="get">
                     <label for="no_adults">Adults:</label>
                     <input type="number" name="adults" min="1" max="100" autocomplete="off" required><br>
@@ -36,39 +42,42 @@
                     <input type="number" name="total" value="0" disabled required/><br>
 
                     <button>Book Now</button>
-
+                </form>
+                </div>
 
                 
 
-                <!-- <p><b>Check in Date:</b> 06/06/2020</p>
-                <p><b>Check out Date:</b> 08/06/2020</p>
-                <p><b>Tarrif Breakdown:</b> RS.1000*2Adults*5Nights</p>
-                <p><b>Total Amount:</b>Rs.10000</p>
-                <a href="#">Pay Now</a> -->
-                </form>
-            
-            </div>
-            <h2>Radisson Blu Hotel</h2>
-            <p>RATING</p>
-            <p>5 Star</p>
-            <p>AMENITIES</p>
-            <ul> 
-                <li>Room service</li>
-                <li>Restaurant</li>
-                <li>Business center</li>
-                <li>Fitness center</li>
-                <li>Pool</li>
-            </ul>
-            <div>
-            <h5>DESCRIPTION</h5>
-            </div>
-            <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Nisi eius eligendi rem, molestias exercitationem atque amet autem, 
-                 libero sapiente quae dolorum fugiat recusandae magni vero neque reprehenderit et 
-                 repudiandae blanditiis?</p>
-                </div>  
+                        <!-- <p><b>Check in Date:</b> 06/06/2020</p>
+                        <p><b>Check out Date:</b> 08/06/2020</p>
+                        <p><b>Tarrif Breakdown:</b> RS.1000*2Adults*5Nights</p>
+                        <p><b>Total Amount:</b>Rs.10000</p>
+                        <a href="#">Pay Now</a> -->
+               
+                    <div class="hotel_description">
+                    <h2>Radisson Blu Hotel</h2>
+                    <p>RATING</p>
+                    <p>5 Star</p>
+                    <p>AMENITIES</p>
+                    <ul> 
+                        <li>Room service</li>
+                        <li>Restaurant</li>
+                        <li>Business center</li>
+                        <li>Fitness center</li>
+                        <li>Pool</li>
+                    </ul>
+
+                   
+                        <h5>DESCRIPTION</h5>
+                    
+
+                    
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Nisi eius eligendi rem, molestias exercitationem atque amet autem, 
+                            libero sapiente quae dolorum fugiat recusandae magni vero neque reprehenderit et 
+                            repudiandae blanditiis?</p>
+                    </div>  
            </div>
+
         </main>
     
         <footer>

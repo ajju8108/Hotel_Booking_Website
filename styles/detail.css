@@ -1,10 +1,11 @@
-*{
-    /* margin: 0;
-     padding: 0; */
-    box-sizing: border-box; 
-}.box{
-    background:red;
-    height:100%;
+body,html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 0 0 0;
+    background-color: #e0e0e0;
+}
+header, footer{
+    background-color: rosybrown;
 }
 #logo{
     height: 60px;
@@ -13,4 +14,22 @@
 #Radisson_Blu_Hotel{
     height: 500px;
     width: 500px;
+    
+}
+.radisson_hotel{
+    /* margin: 2%, 4%, 0%, 4%; */
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.form{
+    margin-bottom: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.hotel_description{
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
 }
