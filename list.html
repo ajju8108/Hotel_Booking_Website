@@ -9,29 +9,30 @@
 </head>
 <body>
     <div class="box">
-        <header>
-            <nav >
-                <img id="logo" src="assests/images/logo.png" halt="logo" />
-                
-                <a href="login.html" target="_self" >Login</a>
-            </nav>
+        <header >
         
-        </header>
+            
+            <a href="index.html"><img id="logo" src="assests/images/logo.png" halt="logo" /></a>
+    
+            <a id="login" href="login.html" target="_self" >Login</a>
+            
+    </header>
     
         <main>
-            <div>
-                <ul>
-                    <a href="list.html#hotel_1"><li>List View</li></a>
-                    <a href="list.html#map_view"><li>Map View</li></a>
-                </ul>
+            <div class="list_map">
+                
+                <a id="list" href="list.html#hotel_1"><b>List View</a>
+                <a id="map" href="list.html#map_view"><b>Map View</a>
+            
+            </div>
             </div>
 
             <div class="all_hotels">
                 <div class="hotel1">
-                <a href="detail.html" ><img id="hotel_1" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" />
-                <h3>Radisson Blu Hotel</h3>
-                <p>5 Star</p>
-                <p>New Delhi</p>
+                <a  style="color: black; text-decoration: none;" href="detail.html" ><img id="hotel_1" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" />
+                <h3 style="color: black; text-decoration: none;">Radisson Blu Hotel</h3>
+                <p style="color: black; text-decoration: none;"> 5 Star</p>
+                <p style="color: black; text-decoration: none;">New Delhi</p>
                 </a>
                 </div>
 
@@ -54,22 +55,28 @@
         
     
         
-            <div id="map_view">
+            <!-- <div id="map_view">
             <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="Map Image" />
             <p>MAP VIEW</p>
-            </div>
+            </div> -->
         </main>
 
-            <footer>
-            <div>
-            <a href="contact.html" target="_self">Contact Us</a>
+        <footer>
+        
+            <!-- <div style="order: 1;"> -->
+                <a id="contact" href="contact.html" target="_self">Contact Us</a>
+            <!-- </div> -->
+           <div class="social_media" style="order: 3;">
+              
+                <a href="https://www.facebook.com/" target="_blank"><img id="social_media1" src="assests/images/facebook.png" height="20px" width="22px" alt="facebook" /></a>
+                <a href="https://www.instagram.com/" target="_blank"><img id="social_media2" src="assests/images/instagram.png" height="20px" width="22px" alt="instagram" /></a>
+                <a href="https://www.twitter.com/" target="_blank"><img id="social_media3" src="assests/images/twitter.png" height="20px" 
+                    width="22px" alt="twitter" /></a>
+                
             </div>
-            <div>
-            <a href="https://www.facebook.com/" target="_blank"><img id="social_media1" src="assests/images/facebook.png" height="20px" width="22px" alt="facebook" /></a>
-            <a href="https://www.instagram.com/" target="_blank"><img id="social_media2" src="assests/images/instagram.png" height="20px" width="22px" alt="instagram" /></a>
-            <a href="https://www.twitter.com/" target="_blank"><img id="social_media3" src="assests/images/twitter.png" height="20px" width="22px" alt="twitter" /></a>
-            <p>	&#169;2020 ROOM SEARCH PVT LTD</p>
-            </div>
+                <p id="copyright" style="order: 2;">	&#169;2020 ROOM SEARCH PVT LTD</p>
+                
+            
         </footer>
 
         

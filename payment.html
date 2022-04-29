@@ -9,14 +9,14 @@
 </head>
 <body>
     <div>
-        <header>
-            <nav >
-            <img id="logo" src="assests/images/logo.png" halt="logo" />
-            
-            <a href="login.html" target="_self" >Login</a>
+        <header >
         
-        </nav>
-        </header>
+            
+            <a href="index.html"><img id="logo" src="assests/images/logo.png" halt="logo" /></a>
+    
+            <a id="login" href="login.html" target="_self" >Login</a>
+            
+    </header>
     
         <main>
             <div class="hotel_detail">
@@ -40,19 +40,25 @@
                     
                 </div>
             </div>  
-            <a href="#">Pay Now</a>
+            <a style="color: black; text-decoration: none;" href="#">Pay Now</a>
         </main>
     
         <footer>
-            <div>
-                <a href="contact.html" target="_self">Contact Us</a>
+        
+            <!-- <div style="order: 1;"> -->
+                <a id="contact" href="contact.html" target="_self">Contact Us</a>
+            <!-- </div> -->
+           <div class="social_media" style="order: 3;">
+              
+                <a href="https://www.facebook.com/" target="_blank"><img id="social_media1" src="assests/images/facebook.png" height="20px" width="22px" alt="facebook" /></a>
+                <a href="https://www.instagram.com/" target="_blank"><img id="social_media2" src="assests/images/instagram.png" height="20px" width="22px" alt="instagram" /></a>
+                <a href="https://www.twitter.com/" target="_blank"><img id="social_media3" src="assests/images/twitter.png" height="20px" 
+                    width="22px" alt="twitter" /></a>
+                
             </div>
-            <div>
-                <a href="https://www.facebook.com/" target="_blank"><img src="assests/images/facebook.png" height="20px" width="22px" alt="facebook" /></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="assests/images/instagram.png" height="20px" width="22px" alt="instagram" /></a>
-                <a href="https://www.twitter.com/" target="_blank"><img src="assests/images/twitter.png" height="20px" width="22px" alt="twitter" /></a>
-                <p>	&#169;2020 ROOM SEARCH PVT LTD</p>
-            </div>
+                <p id="copyright" style="order: 2;">	&#169;2020 ROOM SEARCH PVT LTD</p>
+                
+            
         </footer>
     </div>
 </body>

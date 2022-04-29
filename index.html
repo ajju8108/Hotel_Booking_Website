@@ -13,20 +13,22 @@
     <body>
     <div id="box" >
 
-    <header>
-        <nav >
-        <img id="logo" src="assests/images/logo.png" halt="logo" />
+    <header >
         
-        <a href="login.html" target="_self" >Login</a>
+            
+            <img id="logo" src="assests/images/logo.png" halt="logo" />
     
-    </nav>
+            <a id="login" href="login.html" target="_self" >Login</a>
+            
     </header>
 
-    <main>
-        <div class="search_bar">
-            <input type="text" placeholder="City">
-        
-        </div>
+    <main> 
+        <div class="main">
+            <div class="search_bar">
+                <!-- <div class="city_search"> -->
+                    <input id="city_search" type="text" placeholder="City">
+                <!-- </div> -->
+            </div>
 
         <div id="city_carts">
 
@@ -48,22 +50,28 @@
             
         
         </div>
-            <div>
-                <a href="#">View more&gt;&gt; </a>
-            </div>
-        
+            
+                <a id="view" href="#">View more&gt;&gt; </a>
+           
+        </div>
     </main>
 
     <footer>
-        <div>
-            <a href="contact.html" target="_self">Contact Us</a>
-        </div>
-       <div>
+        
+        <!-- <div style="order: 1;"> -->
+            <a id="contact" href="contact.html" target="_self">Contact Us</a>
+        <!-- </div> -->
+       <div class="social_media" style="order: 3;">
+          
             <a href="https://www.facebook.com/" target="_blank"><img id="social_media1" src="assests/images/facebook.png" height="20px" width="22px" alt="facebook" /></a>
             <a href="https://www.instagram.com/" target="_blank"><img id="social_media2" src="assests/images/instagram.png" height="20px" width="22px" alt="instagram" /></a>
-            <a href="https://www.twitter.com/" target="_blank"><img id="social_media3" src="assests/images/twitter.png" height="20px" width="22px" alt="twitter" /></a>
-            <p>	&#169;2020 ROOM SEARCH PVT LTD</p>
+            <a href="https://www.twitter.com/" target="_blank"><img id="social_media3" src="assests/images/twitter.png" height="20px" 
+                width="22px" alt="twitter" /></a>
+            
         </div>
+            <p id="copyright" style="order: 2;">	&#169;2020 ROOM SEARCH PVT LTD</p>
+            
+        
     </footer>
 </div>
 </body>
