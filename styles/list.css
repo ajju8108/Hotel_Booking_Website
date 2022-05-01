@@ -55,91 +55,93 @@
 
   *{
     font-family: 'Ubuntu', sans-serif ;
-
-}
-
-body,html{
     box-sizing: border-box;
-    padding: 0;
-    margin: 0 0 0 0;
-    background-color: #e0e0e0;
-}
-
-/* .box{
-    
-    height:100%;
-} */
-header, footer{
-    
-    background-color: rosybrown;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-    bottom: 0px;
 
 }
 
-header{
+body,
+html {
+  padding: 0;
+  margin: 0 0 0 0;
+  background-color: #e0e0e0;
+  
+}
+header,
+footer {
+  background-color: rosybrown;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+}
+
+
+header {
+   
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     justify-content: space-between;
     align-items: center;
-}
-
-#logo{
+    
+    
+  }
+  
+  #logo {
+    align-items: center;
+    margin-left: 25%;
     height: 60px;
     width: 60px;
-}
-#logo{
+  }
+ 
+  #login {
     align-items: center;
-}
-
-#login{
-    align-items: center;
-    margin-right: 1%;
+    margin-right: 2%;
     text-decoration: none;
     color: black;
-}
+  }
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+  }
+  #contact {
+    text-decoration: none;
+    color: black;
+    margin-left: 2%;
+  }
+  .social_media {
+    margin-right: 2%;
+  }
+
+  #social_media1,#social_media2,#social_media3,#social_media4 {
+    height: 20px;
+    width: 22px;
+  }
+
+  #copyright {
+    /* margin-top: 50px; */
+    font-size: 10px;
+  }
 
 #hotel_1,#hotel_2,#hotel_3{
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 250px;
     
 }
 
-#social_media1,#social_media2,#social_media3,#social_media4{
-    height: 20px;
-    width: 22px;
-}
+
 
 .hotel1,.hotel2,.hotel3{
-    margin: 2%;
-    background-color:  rgb(132,136,139);
+    margin: 3%;
+    background-color:  lightgray;
     width:40% ;
 }
 
-footer{
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-}
-
-#contact{
-    text-decoration: none;
-    color: black;
-    margin-left: 1% ;
-}
-.social_media{
-    margin-right: 1%;
-}
-#copyright{
-    margin-top: 50px;
-    font-size: 10px;
-}
 
 .list_map{
     
@@ -154,6 +156,8 @@ footer{
 }
 
     
+
+
 #list,#map{
     
     color:black ;
@@ -165,8 +169,38 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* justify-content: space-around; */
-    /* justify-content: space-evenly; */
-
+    
 }
 
+.hotel1{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+    justify-content: flex-start;
+}
+.content1, .content2, .content3{
+    padding-left: 20px;
+}
+
+.hotel2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    justify-content: flex-start;
+}
+
+
+.hotel3{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+    justify-content: flex-start;
+}
+
+ 
+main{
+  margin-bottom: 10%;
+}

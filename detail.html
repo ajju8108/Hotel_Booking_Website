@@ -19,30 +19,50 @@
     </header>
 
         <main>
-           <div>
-               <div class="radisson_hotel">
-                <img id="Radisson_Blu_Hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" />
-                </div>
+           <div class="whole_content">
 
-                <div class="form">
-                <form action="payment.html" target="_self" method="get">
-                    <label for="no_adults">Adults:</label>
-                    <input type="number" name="adults" min="1" max="100" autocomplete="off" required><br>
-
-                    <label for="name">Name:</label>
-                    <input type="text" name="username" placeholder="Enter Username" autocomplete="off" required/><br>
-
-                    <label for="check_in">From Date:</label>
-                    <input type="date" name="from_date" autocomplete="off" required/><br>
-
-                    <label for="check_out">To Date:</label>
-                    <input type="date" name="to_date" autocomplete="off" required/><br>
+                <div class="img_form">
                     
-                    <label for="total_price">Total:</label>
-                    <input type="number" name="total" value="0" disabled required/><br>
+                    <div class="radisson_hotel">
+                        <img id="Radisson_Blu_Hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" />
+                    </div>
 
-                    <button>Book Now</button>
-                </form>
+                    <!-- <div class="form-body"> -->
+                        <form class="form-body" action="payment.html" target="_self" method="get">
+                        <div class="row">
+                        <div class="input-group">
+                        <label id="label" for="no_adults">Adults:</label>
+                        <input class="lbl1" id="input" type="number" name="adults" min="1" max="100" autocomplete="off" required><br>
+                        </div>
+                        
+                        <div class="input-group">
+                        <label for="name">Name:</label>
+                        <input class="lbl2" type="text" name="username" autocomplete="off" required/><br>
+                        </div>
+                        
+                        <div class="input-group">
+                        <label for="check_in">From Date:</label>
+                        <input class="lbl3" type="date" name="from_date" autocomplete="off" required/><br>
+                        </div>
+                    
+                        <div class="input-group">
+                        <label for="check_out">To Date:</label>
+                        <input class="lbl4" type="date" name="to_date" autocomplete="off" required/><br>
+                        </div>
+                        
+                        <div class="input-group">
+                        <label for="total_price">Total:</label>
+                        <input class="lbl5" type="number" name="total" value="0" disabled required/><br>
+                        </div>
+
+                        <div class="input-group">
+                        <button class="booknow">Book Now</button></div>
+
+                    </div>
+
+                    </form>
+
+                    </div>
                 </div>
 
                 
@@ -54,10 +74,10 @@
                         <a href="#">Pay Now</a> -->
                
                     <div class="hotel_description">
-                    <h2>Radisson Blu Hotel</h2>
-                    <p>RATING</p>
+                    <h2 >Radisson Blu Hotel</h2>
+                    <p id="heading">RATING</p>
                     <p>5 Star</p>
-                    <p>AMENITIES</p>
+                    <p id="heading">AMENITIES</p>
                     <ul> 
                         <li>Room service</li>
                         <li>Restaurant</li>
@@ -67,7 +87,7 @@
                     </ul>
 
                    
-                        <h5>DESCRIPTION</h5>
+                        <h5 id="heading">DESCRIPTION</h5>
                     
 
                     

@@ -55,65 +55,111 @@
 
   *{
     font-family: 'Ubuntu', sans-serif ;
-
-}
-
-body,html{
     box-sizing: border-box;
-    padding: 0;
-    margin: 0 0 0 0;
-    background-color: #e0e0e0;
-}
-header, footer{
-    
-    background-color: rosybrown;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-    bottom: 0px;
 
 }
 
-header{
+body,
+html {
+  padding: 0;
+  margin: 0 0 0 0;
+  background-color: #e0e0e0;
+  
+}
+header,
+footer {
+  background-color: rosybrown;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+}
+
+
+header {
+   
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     justify-content: space-between;
     align-items: center;
-}
-
-#logo{
+    
+    
+  }
+  
+  #logo {
     align-items: center;
-}
-#login{
-    align-items: center;
-    margin-right: 1%;
-    text-decoration: none;
-    color: black;
-}
-
-#logo{
+    margin-left: 25%;
     height: 60px;
     width: 60px;
-}
+  }
+ 
+  #login {
+    align-items: center;
+    margin-right: 2%;
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+  }
+  #contact {
+    text-decoration: none;
+    color: black;
+    margin-left: 2%;
+  }
+  .social_media {
+    margin-right: 2%;
+  }
+
+  #social_media1,#social_media2,#social_media3,#social_media4 {
+    height: 20px;
+    width: 22px;
+  }
+
+  #copyright {
+    /* margin-top: 50px; */
+    font-size: 10px;
+  }
+
+
+
+
 #Radisson_Blu_Hotel_payment{
-    height: 500px;
-    width: 500px;
+    max-height: 310px;
+    max-width: 270px;
+
 }
-.hotel_detail{
-    /* position: relative; */
-    background-color: rgb(132,136,139);
-    height: 20%;
-    width: 50%;
-    /* margin-top:2% ; */
-    margin-bottom:2% ;
-    margin:2% auto;
-}
+
 .payment_details{
-    margin-top: 2%;
+
+
+    margin-top: 1%;
     margin-bottom: 2%;
     margin-left: 2%;
     margin-right: 2%;
+
+    /*  */
+
+
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rosybrown;
+    border-radius: 5px;
+    margin-bottom: 15%;
+
+    
 }
 .total_amount{
     margin-top: 2%;
@@ -121,36 +167,38 @@ header{
     margin-left: 2%;
     margin-right: 2%;
 
-    border: 1px solid black;
-    border-radius: 5px;
+    
 }
 .tarrif{
     padding-top: 1%;
     padding-bottom:1% ;
     padding-left:2% ;
     padding-right: 2%;
+    display: flex;
+    flex-wrap: wrap;
     /* padding: 1%, 2%, 1%,; */
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+}   
 
-footer{
+
+.hotel_detail{
+    
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
-    justify-content: space-between;
+    background-color: rgb(132,136,139);
+    width: 50%;
+    margin:2% auto;
     align-items: center;
-    height: 60px;
+    margin-top: 150px;
+    
 }
 
-#contact{
-    text-decoration: none;
-    color: black;
-    margin-left: 1% ;
+
+.content{
+    padding-left: 20px;
 }
-.social_media{
-    margin-right: 1%;
-}
-#copyright{
-    margin-top: 50px;
-    font-size: 10px;
-}
+
