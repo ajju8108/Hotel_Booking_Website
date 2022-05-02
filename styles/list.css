@@ -223,3 +223,7 @@ footer {
 main{
   margin-bottom: 10%;
 }
+
+.checked {
+  color: orange;
+}
