@@ -93,11 +93,24 @@ header {
     width: 60px;
   }
  
-  #login {
+  .btn-light {
     align-items: center;
-    margin-right: 2%;
+    margin-right: 20px;
+    color: black;
+    background-color: white;
+    outline-offset: 0;
+    border: none; 
+  }
+  
+  .btn-light:hover{
+    background-color: lightgray;
+    color: black;
+  }
+   
+  .btn-info {
     text-decoration: none;
     color: black;
+    margin-left: 2%;
   }
 
 
@@ -109,11 +122,11 @@ footer {
     align-items: center;
     height: 60px;
   }
-  #contact {
+  /* #contact {
     text-decoration: none;
     color: black;
     margin-left: 2%;
-  }
+  } */
   .social_media {
     margin-right: 2%;
   }
